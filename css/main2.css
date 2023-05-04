@@ -1,0 +1,32 @@
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://mblogthumb-phinf.pstatic.net/20130819_85/choimj941114_1376913324620CS7yN_JPEG/C0AC1.JPG?type=w2);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position:center;
+    background-attachment: fixed;
+    filter: brightness(80%);
+    padding:1px;
+    float:left
+}
+
+.main-title{
+    color:white;
+    font-size:40px;
+    margin-top:25%;
+    text-align:center;
+    
+}
+
+.main-button{
+    padding:15px;
+    font-size:20px;
+    background:white;
+    border:none;
+    border-radius:5px;
+    position:relative;
+    /* position:relative -> 
+    내 원래 위치를 기준으로 이동하자! */
+    top:100px;
+}
